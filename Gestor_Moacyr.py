@@ -24,6 +24,11 @@ df["Avaliar"] = df["Avaliador"]
 st.write("""
 # Cerejeiras - Análise de Competências
 """ )
+
+st.sidebar.write("""
+## Moacyr Marques Neto
+""" )
+
 aval = ["Autoavaliação","Gestor","Pares","Liderados"]
 
 Nome = st.sidebar.selectbox("Avaliados",df["Colab"].unique())
